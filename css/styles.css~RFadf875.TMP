@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color:bisque;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:rgb(170, 202, 14);
+  border-radius: 0;
+  border: 0;
+	
+	
+}
+
+.navbar-brand {
+  padding-top: 25px;
+
+
+}
+
+.navbar-brand{
+	width: 125px;
+  height: 125px;
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family:"neuton-cursive";
+  color:#FCFBFB;
+  font-size: 2.9em;
+  font-weight:100;
+ 	
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  font-size: 1.8em;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -85px;
+  padding: 20px 20px 20px 20px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+#main-content {
+  width: 100%;
+  margin-top:-20px;
+	background-color:#FFFFF0;
+    
+}
+
+#tile-menu{
+  font-size: 2.3em;
+  font-family:Avenir-LT-W01_35-Light1475496, sans-serif;
+  color:#FF7F00;
+  font-weight:100;	
+
+}
+
+.menu-item-description {
+  padding-right: 30px;
+  
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.9em;
+  color:#FFFDFD;
+  font-weight:100;		
+font-family:Avenir-LT-W01_35-Light1475496, sans-serif; 
+}
+
+#main-content2{
+    background-color:#DBFCB0;
+    width: 100%;
+    height:900px; 
+  }
+ .menu-item-details {
+  font-style: italic;
+  text-align: justify;
+  margin-left: 10px; 
+}
+
+/* END HOME PAGE */
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+ 
+  /* End Header */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+   /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+   #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a  { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;
+  }
+
+
+   }
+
+
+
+
